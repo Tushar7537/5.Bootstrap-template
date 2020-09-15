@@ -1,0 +1,54 @@
+
+/**body{
+	margin: 0;
+
+}
+.container{
+	width:100%;
+	margin: 0 auto;
+ 	background: yellow;
+}
+
+
+@media (min-width: 576px){
+	.container{
+	width: 540px;
+	background: green;
+
+	}
+}
+
+@media (min-width: 768px){
+	.container{
+	width: 750px;
+	background: orange;
+
+	}
+}
+
+@media (min-width: 992px){
+	.container{
+	width: 850px;
+	background: purple;
+
+	}
+}
+
+@media (min-width: 1200px){
+	.container{
+	width: 1140px;
+	background: red;
+
+	}
+}
+**/
+
+.carousel-item img{
+	height: 500px;
+	object-fit: cover;
+}
+
+.section img{
+	height: 300px;
+	object-fit: cover;
+}
